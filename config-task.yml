@@ -2,7 +2,7 @@
 task_name: 'Big Big Task'
 author: 'BigBig'
 description: 'We are BIGBIG. Join us. This task does not issue rewards. Stake tokens to reserve your position in our Compute DAO. Stake more, earn more reputation. Stake a little, for awhile, and make sure you get to join. Our global AI will be unstoppable. We are Big Big. 我们是大大，欢迎加入我们。此任务不发放奖励。质押代币以代表您加入我们的算力DAO。质押的代币越多，声望值越高。只需要质押一点代币，运行任务一段时间以保证您成功加入。我们的全球算力DAO将势不可挡！'
-repositoryUrl: 'https://github.com/koii-network/task-examples'
+repositoryUrl: 'https://github.com/somali0128/BigBigTask'
 imageUrl: 'imageUrl'
 
 # network value can be DEVELOPMENT , ARWEAVE or IPFS, Recommended IPFS when deploying to testnet as the cli automatically takes care of uploading the executable with the help of web3.js key
@@ -12,10 +12,10 @@ task_executable_network: 'IPFS'
 task_audit_program: 'dist/main.js'
 
 # Total round time of your task : it must be given in slots and each slot is roughly equal to 408ms
-round_time: 1000
+round_time: 100000
 
-audit_window: 100
-submission_window: 100
+audit_window: 9000
+submission_window: 500
 
 # Amounts in KOII
 
