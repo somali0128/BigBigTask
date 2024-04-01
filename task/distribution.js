@@ -1,10 +1,10 @@
 const { namespaceWrapper } = require('../_koiiNode/koiiNode');
 
 class Distribution {
-  async submitDistributionList(round) {
+  submitDistributionList = async round => {
     // This function just upload your generated dustribution List and do the transaction for that
 
-    console.log('SubmitDistributionList called');
+    console.log('SUBMIT DISTRIBUTION LIST CALLED WITH ROUND', round);
 
     try {
       const distributionList = await this.generateDistributionList(round);
