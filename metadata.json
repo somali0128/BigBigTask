@@ -1,0 +1,13 @@
+{
+  "author": "BigBig",
+  "description": "We are BIGBIG. Join us. This task does not issue rewards. Stake tokens to reserve your position in our Compute DAO. Stake more, earn more reputation. Stake a little, for awhile, and make sure you get to join. Our global AI will be unstoppable. We are Big Big. 我们是大大，欢迎加入我们。此任务不发放奖励。质押代币以代表您加入我们的算力DAO。质押的代币越多，声望值越高。只需要质押一点代币，运行任务一段时间以保证您成功加入。我们的全球算力DAO将势不可挡！",
+  "repositoryUrl": "https://github.com/somali0128/BigBigTask",
+  "createdAt": 1713810553489,
+  "migrationDescription": "Update the task description",
+  "imageUrl": "https://bafybeigl4s5elioicayyxgfkcgdg6gfygbv7hzqrdyzvyrzifa5oqyu3p4.ipfs.sphn.link/bigbigtask.png",
+  "requirementsTags": [
+    { "type": "CPU", "value": "2-core" },
+    { "type": "RAM", "value": "1 GB" },
+    { "type": "STORAGE", "value": "1 GB" }
+  ]
+}
