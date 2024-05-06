@@ -14,8 +14,8 @@ task_audit_program: 'dist/main.js'
 # Total round time of your task : it must be given in slots and each slot is roughly equal to 408ms
 round_time: 100000
 
-audit_window: 9000
-submission_window: 500
+audit_window: 8000
+submission_window: 1000
 
 # Amounts in KOII
 
@@ -47,7 +47,7 @@ requirementsTags:
 # OPTIONAL variables variables for creating task / REQUIRED variables for update task
 
 # OPTIONAL Only provide the taskId if you are updating the task otherwise leave blank
-task_id: '2H6BDyQrDZp7WgkPB8c29nAKRwgrZjU29ovLUipNUWLy'
+task_id: 'FWaKfzBiYhL2GMKi7CuCBmsQby9zhiQ8wSyWoCmB9ayh'
 
 # Provide the description for changes made in new version of task
-migrationDescription: 'Update the task description'
+migrationDescription: 'Update the round time.'
