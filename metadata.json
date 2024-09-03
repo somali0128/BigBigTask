@@ -1,13 +1,1 @@
-{
-  "author": "BigBig",
-  "description": "We are BIGBIG. Join us. This task does not issue rewards. Stake tokens to reserve your position in our Compute DAO. Stake more, earn more reputation. Stake a little, for awhile, and make sure you get to join. Our global AI will be unstoppable. We are Big Big. 我们是大大，欢迎加入我们。此任务不发放奖励。质押代币以代表您加入我们的算力DAO。质押的代币越多，声望值越高。只需要质押一点代币，运行任务一段时间以保证您成功加入。我们的全球算力DAO将势不可挡！",
-  "repositoryUrl": "https://github.com/somali0128/BigBigTask",
-  "createdAt": 1715025715410,
-  "migrationDescription": "Update the round time.",
-  "imageUrl": "https://bafybeigl4s5elioicayyxgfkcgdg6gfygbv7hzqrdyzvyrzifa5oqyu3p4.ipfs.sphn.link/bigbigtask.png",
-  "requirementsTags": [
-    { "type": "CPU", "value": "2-core" },
-    { "type": "RAM", "value": "1 GB" },
-    { "type": "STORAGE", "value": "1 GB" }
-  ]
-}
+{"author":"BigBig","description":"We are BIGBIG. Join us. This task does not issue rewards. Pledging to this task means that you are interested in joining the Global Arithmetic DAO. The \"Global Arithmetic DAO\", oversees global mathematical computations that manage algorithms or computations fairly and transparently, across finance, data analysis, the sciences and blockchains. It’s a global, decentralized organization dealing with numbers and calculations using smart contracts and blockchain technology to ensure fairness and transparency. 我们是 BIGBIG。加入我们吧。此任务不发放奖励。完成此任务意味着您有兴趣加入 Global Arithmetic DAO。\"Global Arithmetic DAO\"负责监督全球数学计算，公平并且透明地管理金融、科学、数据分析和区块链领域的计算。这是一个全球性的去中心化组织，使用智能合约和区块链技术处理数字和计算，从而确保公平和透明。","repositoryUrl":"https://github.com/somali0128/BigBigTask","createdAt":1725378430139,"migrationDescription":"Update task description.","imageUrl":"https://bafybeid2up24acm4egvadccnfd3yut5pm2camzfiqwbkusfu5nryxlnmiu.ipfs.w3s.link/Big%20task.png","requirementsTags":[{"type":"CPU","value":"2-core"},{"type":"RAM","value":"1 GB"},{"type":"STORAGE","value":"1 GB"}]}
