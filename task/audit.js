@@ -2,11 +2,20 @@ const { namespaceWrapper } = require('../_koiiNode/koiiNode');
 
 class Audit {
   async validateNode(submission_value, round) {
-    // No need to implement this function
+    let vote;
+    if (submission_value !== 'Hello BigBig!') {
+      vote = false;
+    } else {
+      vote = true;
+    }
+    return vote;
   }
 
   async auditTask(roundNumber) {
-    // No need to implement this function
+    await namespaceWrapper.validateAndVoteOnNodes(
+      this.validateNode,
+      roundNumber,
+    );
   }
 }
 const audit = new Audit();

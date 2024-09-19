@@ -20,6 +20,10 @@ class Submission {
       const submitEN = 'The current round is: ' + roundNumber;
       console.log(submitCN);
       console.log(submitEN);
+      namespaceWrapper.checkSubmissionAndUpdateRound(
+        "Hello BigBig!",
+        roundNumber,
+      );
     } catch (error) {
       console.log('error in submission round', error);
     }
