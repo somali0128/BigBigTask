@@ -17,8 +17,7 @@ markdownDescriptionPath: ""
 
 ## Task Description ##
 # Ignored if you specify a markdown file.
-description: 'We are BIGBIG. Join us. This task does not issue rewards. Pledging to this task means that you are interested in joining the Global Arithmetic DAO. The "Global Arithmetic DAO", oversees global mathematical computations that manage algorithms or computations fairly and transparently, across finance, data analysis, the sciences and blockchains. It’s a global, decentralized organization dealing with numbers and calculations using smart contracts and blockchain technology to ensure fairness and transparency. 我们是 BIGBIG。加入我们吧。此任务不发放奖励。完成此任务意味着您有兴趣加入 Global Arithmetic DAO。"Global Arithmetic DAO"负责监督全球数学计算，公平并且透明地管理金融、科学、数据分析和区块链领域的计算。这是一个全球性的去中心化组织，使用智能合约和区块链技术处理数字和计算，从而确保公平和透明。'
-
+description: 'We are BIGBIG. Join us. This task distribute 1000 BB to runners per round. Pledging to this task means that you are interested in joining the Global Arithmetic DAO. The "Global Arithmetic DAO", oversees global mathematical computations that manage algorithms or computations fairly and transparently, across finance, data analysis, the sciences and blockchains. It’s a global, decentralized organization dealing with numbers and calculations using smart contracts and blockchain technology to ensure fairness and transparency. 我们是 BIGBIG。加入我们吧。此任务每轮发放1000 BB作为奖励。完成此任务意味着您有兴趣加入 Global Arithmetic DAO。"Global Arithmetic DAO"负责监督全球数学计算，公平并且透明地管理金融、科学、数据分析和区块链领域的计算。这是一个全球性的去中心化组织，使用智能合约和区块链技术处理数字和计算，从而确保公平和透明。'
 ## Repository URL ##
 # Must be public for whitelisted tasks.
 repositoryUrl: "https://github.com/somali0128/BigBigTask"
@@ -28,7 +27,7 @@ repositoryUrl: "https://github.com/somali0128/BigBigTask"
 imageUrl: "https://bafybeid2up24acm4egvadccnfd3yut5pm2camzfiqwbkusfu5nryxlnmiu.ipfs.w3s.link/Big%20task.png"
 
 ## Info URL ##
-infoUrl: "https://github.com/somali0128/BigBigTask"
+infoUrl: "https://www.koii.network/ocean"
 
 ####################################### TASK CONFIGURATION ######################################
 
@@ -46,15 +45,15 @@ task_audit_program: "dist/main.js"
 ## Round Time ##
 # Duration of task, measured in slots (with each slot approximately equal to 408ms). Should be at least 800 slots.
 # See https://www.koii.network/docs/concepts/what-are-tasks/what-are-tasks/gradual-consensus for more information on how round time, audit window, and submission window work.
-round_time: 100000
+round_time: 3000
 
 ## Audit Window ##
 # The audit window should be at least 1/3 of the round time.
-audit_window: 8000
+audit_window: 1200
 
 ## Submission Window ##
 # The submission window should be at least 1/3 of the round time.
-submission_window: 1000
+submission_window: 1200
 
 ## Minimum Stake Amount ##
 # The minimum amount of KOII that a user must stake in order to participate in the task.
@@ -65,18 +64,18 @@ minimum_stake_amount: 0.01
 task_type: "KPL"
 
 ## Token Mint Address (ONLY for KPL tasks) ##
-# The Fire Token address is provided as an example.
+# BIGBIG token mint address.
 token_type: "FJG2aEPtertCXoedgteCCMmgngSZo1Zd715oNBzR7xpR"
 
 ## Total Bounty Amount ##
 # The total bounty amount that will be available for distribution over all rounds.
 # Does nothing when updating a task.
-total_bounty_amount: 10
+total_bounty_amount: 1000000
 
 ## Bounty Amount per Round ##
 # The maximum amount that can be distributed per round.
 # If the actual distribution per round exceeds this amount, the distribution list will fail.
-bounty_amount_per_round: 0.1
+bounty_amount_per_round: 500
 
 ## Allowed Failed Distributions ##
 # Number of retries allowed for the distribution list if it is fails audit.
@@ -88,7 +87,7 @@ allowed_failed_distributions: 3
 # Expected Task Data Size in MBs for the account size.
 # Minimums: 2 for whitelisted tasks, 1 for production, 0.1 for testing.
 # See https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#space for calculation details.
-space: 1
+space: 2
 
 ## Requirement Tags (Optional) ##
 # To add more global variables and task variables, please refer to the type, value, description format shown below.
