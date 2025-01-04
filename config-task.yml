@@ -65,17 +65,17 @@ task_type: "KPL"
 
 ## Token Mint Address (ONLY for KPL tasks) ##
 # BIGBIG token mint address.
-token_type: "FJG2aEPtertCXoedgteCCMmgngSZo1Zd715oNBzR7xpR"
+token_type: "AayQB5XgchRR9zTr5bi95aQ1FFtJ6jEVmbrBQRx5m4gw"
 
 ## Total Bounty Amount ##
 # The total bounty amount that will be available for distribution over all rounds.
 # Does nothing when updating a task.
-total_bounty_amount: 1000000
+total_bounty_amount: 500000
 
 ## Bounty Amount per Round ##
 # The maximum amount that can be distributed per round.
 # If the actual distribution per round exceeds this amount, the distribution list will fail.
-bounty_amount_per_round: 500
+bounty_amount_per_round: 1000
 
 ## Allowed Failed Distributions ##
 # Number of retries allowed for the distribution list if it is fails audit.
@@ -87,7 +87,7 @@ allowed_failed_distributions: 3
 # Expected Task Data Size in MBs for the account size.
 # Minimums: 2 for whitelisted tasks, 1 for production, 0.1 for testing.
 # See https://www.koii.network/docs/develop/command-line-tool/create-task-cli/create-task#space for calculation details.
-space: 2
+space: 3
 
 ## Requirement Tags (Optional) ##
 # To add more global variables and task variables, please refer to the type, value, description format shown below.
@@ -111,7 +111,7 @@ environment: "PRODUCTION"
 #################################### FOR UPDATING TASKS ONLY ####################################
 
 ## Old Task ID ##
-task_id: "FhEnjpDiojB7Lydk6stQ2CpVmQ4QbzyLcoX9Ec3Ab6Xn"
+task_id: ""
 
 ## Migration Description ##
-migrationDescription: "Update task description."
+migrationDescription: ""
